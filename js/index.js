@@ -12,7 +12,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             saque.style.backgroundColor = "rgb(237, 230, 255)";
-            window.location.href = 'http://127.0.0.1:5500/Sistema%20de%20Caixa%20Eletr%C3%B4nico/saque.html';
+            window.location.href = '#';
 
         },300)
   
@@ -21,7 +21,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             saldoExtrato.style.backgroundColor = "rgb(237, 230, 255)";
-            saldoExtrato = window.location.href = 'http://127.0.0.1:5500/Sistema%20de%20Caixa%20Eletr%C3%B4nico/saque.html';
+            saldoExtrato = window.location.href = '#';
 
         },300)
 
