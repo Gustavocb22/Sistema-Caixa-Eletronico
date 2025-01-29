@@ -21,7 +21,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             saldoExtrato.style.backgroundColor = "rgb(237, 230, 255)";
-            saldoExtrato = window.location.href = '#';
+            saldoExtrato = window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/saque.html';
 
         },300)
 
@@ -31,7 +31,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             depositar.style.backgroundColor = "rgb(237, 230, 255)";
-            depositar = window.location.href = 'http://127.0.0.1:5500/Sistema%20de%20Caixa%20Eletr%C3%B4nico/saque.html';
+            depositar = window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/saque.html';
 
         },300)
 
@@ -40,7 +40,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             pagarConta.style.backgroundColor = "rgb(237, 230, 255)";
-            pagarConta = window.location.href = 'http://127.0.0.1:5500/Sistema%20de%20Caixa%20Eletr%C3%B4nico/saque.html';
+            pagarConta = window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/saque.html';
  
         },300)
   

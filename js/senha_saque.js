@@ -62,7 +62,7 @@ document.addEventListener("keydown", (evento) =>{
 
               document.querySelector('#saques').value='';
               confirmar.style.backgroundColor = "#9a9ac6";
-              window.location.href = 'http://127.0.0.1:5500/Sistema%20de%20Caixa%20Eletr%C3%B4nico/senha_saque.html';
+              window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/senha_saque.html';
             
             },200)
           
@@ -86,7 +86,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             voltar.style.backgroundColor = "#9a9ac6";
-            window.location.href = 'http://127.0.0.1:5500/Sistema%20de%20Caixa%20Eletr%C3%B4nico/saque.html';
+            window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/saque.html';
 
         },300)
   
