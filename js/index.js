@@ -12,7 +12,7 @@ document.addEventListener("keydown", (evento) => {
         setTimeout(() => {
 
             saque.style.backgroundColor = "rgb(237, 230, 255)";
-            window.location.href = '#';
+            window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/saque.html';
 
         },300)
   
