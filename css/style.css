@@ -128,3 +128,620 @@ a{
     left: 2rem;
 }
 
+/* RESPONSIVIDADE */
+
+
+@media only screen and (min-width: 1798px) and (max-width: 1920px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 750px;
+        opacity: 0.8;
+    }
+  
+}
+
+@media only screen and (min-width: 1567px) and (max-width: 1797px){
+
+    .menu{
+        max-width: 100%;
+    }
+    #titulo{
+
+      left: 15rem;
+
+
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 750px;
+        opacity: 0.8;
+    }
+    #botao-1{
+        left: 15rem;
+    }
+    #botao-2{
+        left: 52rem;
+    }
+    #botao-3{
+        left: 15rem;
+    }
+    #botao-4{
+        left: 52rem;
+    }
+  
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1568px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #titulo{
+        left: 10rem;
+    }
+    #botao-1{
+        left: 10rem;
+    }
+    #botao-2{
+        left: 48rem;
+    }
+    #botao-3{
+        left: 10rem;
+    }
+    #botao-4{
+        left: 48rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #titulo{
+        left: 9rem;
+        font-size: 2rem;
+    }
+    #botao-1{
+        left: 15rem;
+    }
+    #botao-2{
+        left: 15rem;
+        top: 20rem;    
+    }
+    #botao-3{
+        left: 15rem;
+        top: 28rem; 
+    }
+    #botao-4{
+        left: 15rem;
+        top: 36rem;
+    }
+
+}
+
+@media only screen and (min-width: 894px) and (max-width: 1023px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #titulo{
+        left: 5rem;
+        font-size: 2rem;
+    }
+    #frase-menu{
+        font-size: 2.9rem;
+    }
+    #botao-1{
+        left: 12rem;
+    }
+    #botao-2{
+        left: 12rem;
+        top: 20rem;    
+    }
+    #botao-3{
+        left: 12rem;
+        top: 28rem; 
+    }
+    #botao-4{
+        left: 12rem;
+        top: 36rem;
+    }
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 894px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #titulo{
+        left: 1rem;
+        font-size: 28px;
+    }
+    #frase-menu{
+        font-size: 2.1rem;
+    }
+    #botao-1{
+        left: 6rem;
+    }
+    #botao-2{
+        left: 6rem;
+        top: 20rem;    
+    }
+    #botao-3{
+        left: 6rem;
+        top: 28rem; 
+    }
+    #botao-4{
+        left: 6rem;
+        top: 36rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 692px) and (max-width: 739px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #frase-menu{
+        font-size: 1.9rem;
+    }
+    #titulo{
+        left: 5rem;
+        font-size: 21px;
+    }
+    
+    #botao-1{
+        left: 10rem;
+        width: 20rem;
+    }
+    #botao-2{
+        left: 10rem;
+        top: 20rem;  
+        width: 20rem;  
+    }
+    #botao-3{
+        left: 10rem;
+        top: 28rem; 
+        width: 20rem;
+    }
+    #botao-4{
+        left: 10rem;
+        top: 36rem;
+        width: 20rem;
+    }
+    .numeros{
+
+        font-size: 32px;
+
+    }
+    #traco-botoes{
+
+        height: 0.2rem;
+        top: 1.1rem;
+        left: 1.8rem;
+
+
+    }
+    .span-1{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-2{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-3{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-4{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 586px) and (max-width: 691px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #frase-menu{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+    #titulo{
+        left: 2rem;
+        font-size: 21px;
+    }
+    
+    #botao-1{
+        left: 10rem;
+        width: 20rem;
+    }
+    #botao-2{
+        left: 10rem;
+        top: 20rem;  
+        width: 20rem;  
+    }
+    #botao-3{
+        left: 10rem;
+        top: 28rem; 
+        width: 20rem;
+    }
+    #botao-4{
+        left: 10rem;
+        top: 36rem;
+        width: 20rem;
+    }
+    .numeros{
+
+        font-size: 32px;
+
+    }
+    #traco-botoes{
+
+        height: 0.2rem;
+        top: 1.1rem;
+        left: 1.8rem;
+
+
+    }
+    .span-1{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-2{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-3{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-4{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 542px) and (max-width: 585px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #frase-menu{
+        font-size: 1.2rem;
+        margin-top: 4rem;
+    }
+    #titulo{
+        left: 1.6rem;
+        font-size: 20px;
+    }
+    
+    #botao-1{
+        left: 6rem;
+        width: 20rem;
+    }
+    #botao-2{
+        left: 6rem;
+        top: 20rem;  
+        width: 20rem;  
+    }
+    #botao-3{
+        left: 6rem;
+        top: 28rem; 
+        width: 20rem;
+    }
+    #botao-4{
+        left: 6rem;
+        top: 36rem;
+        width: 20rem;
+    }
+    .numeros{
+
+        font-size: 32px;
+
+    }
+    #traco-botoes{
+
+        height: 0.2rem;
+        top: 1.1rem;
+        left: 1.8rem;
+
+
+    }
+    .span-1{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-2{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-3{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-4{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 541px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+        width: 25%;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #frase-menu{
+        font-size: 1.1rem;
+        margin-top: 4rem;
+    }
+    #titulo{
+        left: 1rem;
+        font-size: 14px;
+    }
+    
+    #botao-1{
+        left: 2rem;
+        width: 20rem;
+    }
+    #botao-2{
+        left: 2rem;
+        top: 20rem;  
+        width: 20rem;  
+    }
+    #botao-3{
+        left: 2rem;
+        top: 28rem; 
+        width: 20rem;
+    }
+    #botao-4{
+        left: 2rem;
+        top: 36rem;
+        width: 20rem;
+    }
+    .numeros{
+
+        font-size: 32px;
+
+    }
+    #traco-botoes{
+
+        height: 0.2rem;
+        top: 1.1rem;
+        left: 1.8rem;
+
+
+    }
+    .span-1{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-2{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-3{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-4{
+
+        font-size: 20px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+
+    .menu{
+        max-width: 100%;
+    }
+    .menu img{
+        margin: 0;
+        width: 25%;
+    }
+    .sessao-principal img{
+        max-width: 100%;
+        height: 747px;
+        opacity: 0.8;
+    }
+    #frase-menu{
+        font-size: 0.9rem;
+        margin-top: 4rem;
+    }
+    #titulo{
+        left: 1rem;
+        font-size: 12px;
+    }
+    
+    #botao-1{
+        left: 1rem;
+        width: 18rem;
+    }
+    #botao-2{
+        left: 1rem;
+        top: 20rem;  
+        width: 18rem;  
+    }
+    #botao-3{
+        left: 1rem;
+        top: 28rem; 
+        width: 18rem;
+    }
+    #botao-4{
+        left: 1rem;
+        top: 36rem;
+        width: 18rem;
+    }
+    .numeros{
+
+        font-size: 32px;
+
+    }
+    #traco-botoes{
+
+        height: 0.2rem;
+        top: 1.1rem;
+        left: 1.8rem;
+
+
+    }
+    .span-1{
+
+        font-size: 17px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-2{
+
+        font-size: 17px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-3{
+
+        font-size: 17px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+    .span-4{
+
+        font-size: 17px;
+        top: 1.5rem;
+        left: 8rem;
+
+    }
+
+}
+
+
+
+
+
+
