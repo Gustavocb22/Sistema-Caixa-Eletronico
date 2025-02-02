@@ -206,6 +206,10 @@
     .teclado{
         margin: 5rem 0 0 40rem;
     }
+    #botao-confirmar{
+
+        left: 65rem;
+    }
     #botao-retornar{
         margin-left: 13rem;
     }
@@ -230,6 +234,10 @@
     .teclado{
         margin: 5rem 0 0 39rem;
     }
+    #botao-confirmar{
+
+        left: 65rem;
+    }
     #botao-retornar{
         margin-left: 12rem;
     }
@@ -245,6 +253,10 @@
     }
     .saque h1{
         margin-left: 11rem;
+    }
+    #botao-confirmar{
+
+        left: 65rem;
     }
     #botao-retornar{
         margin-left: 17rem;
@@ -264,6 +276,10 @@
     }
      #saques{
         margin: 5rem 0 0 42rem;
+    }
+    #botao-confirmar{
+
+        left: 65rem;
     }
     #botao-retornar{
         margin-left: 17rem;
@@ -287,6 +303,10 @@
     .teclado{
         margin: 5rem 0 0 37rem;
     }
+    #botao-confirmar{
+
+        left: 60rem;
+    }
     #botao-retornar{
         margin-left: 10rem;
     }
@@ -307,6 +327,10 @@
     }
     .teclado{
         margin: 5rem 0 0 37rem;
+    }
+    #botao-confirmar{
+
+        left: 60rem;
     }
     #botao-retornar{
         margin-left: 10rem;
@@ -331,6 +355,10 @@
     .teclado{
         margin: 5rem 0 0 31rem;
     }
+    #botao-confirmar{
+
+        left: 52rem;
+    }
     #botao-retornar{
         margin-left: 4rem;
     }
@@ -353,6 +381,10 @@
     }
     .teclado{
         margin: 5rem 0 0 31rem;
+    }
+    #botao-confirmar{
+
+        left: 52rem;
     }
     #botao-retornar{
         margin-left: 4rem;
@@ -386,6 +418,10 @@
 
         font-size: 2.5rem;
     }
+    #botao-confirmar{
+
+        left: 48rem;
+    }
 
 }
 
@@ -393,11 +429,11 @@
 
 
     .botoes_saque_principal_1 a{
-
+        width: 15rem;
         margin: 2rem 0 0 1rem;
     }
     .botoes_saque_principal_2 a{
-
+        width: 15rem;
         margin: 2rem 0 0 4rem;
     }
     .saque h1{
@@ -405,10 +441,10 @@
       
     }
     #saques{
-        margin: 5rem 0 0 25rem;
+        margin: 5rem 0 0 19rem;
     }
     .teclado{
-        margin: 5rem 0 0 27rem;
+        margin: 5rem 0 0 20rem;
     }
     #frase-menu{
 
@@ -418,8 +454,192 @@
         margin: auto 0 auto 8rem;
         font-size: 1.5rem;
     }
+    .span{
+        position: absolute;
+        top: 0.8rem;
+        left: 7rem;
+    }
+    #botao-confirmar{
+
+        left: 40rem;
+    }
+    #botao-retornar{
+        left: 20rem;
+
+    }
 
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
 
 
+    .botoes_saque_principal_1 a{
+        width: 10rem;
+        margin: 2rem 0 0 1rem;
+    }
+    .botoes_saque_principal_2 a{
+        width: 10rem;
+        margin: 2rem 0 0 7rem;
+    }
+    .saque h1{
+        font-size: 26px;
+    }
+    #saques{
+        width: 25rem;
+        margin: 5rem 0 0 20rem;
+        padding: 0 9rem;
+    }
+    .teclado{
+        margin: 5rem 0 0rem 20.5rem;
+        width: 24rem;
+    }
+    .teclado img{
+        width: 50%;
+        height: 50%;
+        margin: 2rem 2rem;
+    }
+    #texto-1{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+    #texto-2{
+
+        font-size: 1rem;
+        margin-right: 2rem;
+
+
+    }
+    #frase-menu{
+        margin: auto  0 auto 2rem;
+        font-size: 1.5rem;
+    }
+    #notas-caixa{
+        margin: auto 0 auto 8rem;
+        font-size: 1.5rem;
+    }
+    .span{
+        position: absolute;
+        top: 1.5rem;
+        left: 6rem;
+        font-size: 16px;
+    }
+    .numeros{
+        top: 1.5rem;
+        font-size: 16px;
+    }
+    .traco-botoes-saque{
+        left: 1.3rem;
+        top: 0.5rem;
+    }
+    #botao-retornar{
+        width: 13rem;
+        left: 20rem;
+    }
+    #botao-confirmar{
+        width: 13rem;
+        left: 35rem;
+    }
+    .voltar{
+        top: 1.5rem;
+        left: 6rem;
+        font-size: 16px;
+    }
+    .traco-botoes-voltar{
+        top: 0.5rem;
+        left: 1.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+
+    .botoes_saque_principal_1 a{
+        width: 8rem;
+        margin: 2rem 0 0 1rem;
+    }
+    .botoes_saque_principal_2 a{
+        width: 8rem;
+        margin: 2rem 0 0 5rem;
+    }
+    .saque h1{
+        font-size: 22px;
+    }
+    #saques{
+        width: 20rem;
+        margin: 5rem 0 0 14rem;
+        padding: 0 6rem;
+    }
+    .teclado{
+        margin: 5rem 0 0rem 15rem;
+        width: 16rem;
+        height: 10rem
+    }
+    .teclado img{
+        width: 30%;
+        height: 30%;
+        margin: 3rem 2rem;
+    }
+    #texto-1{
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+    #texto-2{
+
+        font-size: 0.7rem;
+        margin-right: 2rem;
+
+
+    }
+    .menu img{
+        padding: 0;
+        height: 5rem;
+        margin: 2rem 1rem 0 1rem;
+    }
+    #frase-menu{
+        margin: 4rem  0 0 2rem;
+        font-size: 0.9rem;
+    }
+    #notas-caixa{
+        margin: auto 0 auto 14rem;
+        font-size: 0.9rem;
+    }
+    .span{
+        position: absolute;
+        top: 1.5rem;
+        left: 4rem;
+        font-size: 16px;
+    }
+    .numeros{
+        top: 1.5rem;
+        left: 1rem;
+        font-size: 12px;
+    }
+    .traco-botoes-saque{
+        left: 1.2rem;
+        top: 0.5rem;
+        height: 2px;
+        width: 1rem;
+    }
+    #botao-retornar{
+        width: 9rem;
+        left: 15rem;
+    }
+    #botao-confirmar{
+        width: 9rem;
+        left: 26rem;
+    }
+    .traco-botoes-voltar{
+        top: 0.5rem;
+        height: 2px;
+        width: 1rem;
+        left: 1.1rem;
+    }
+    .voltar{
+        top: 1.5rem;
+        left: 3.8rem;
+        font-size: 12px;
+    }
+   
+
+}
