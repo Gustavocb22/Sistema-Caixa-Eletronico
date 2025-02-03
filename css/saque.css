@@ -993,3 +993,34 @@
     }
   
 }
+
+/* TELA CARREGAMENTO */
+
+.saque p{
+    color: black;
+    font-size: 2rem;
+    margin: 2rem 0.9rem 0 0;
+}
+
+.carregamento{
+    width: 250px;
+    height: 250px;
+    border: 19px solid;
+    border-radius: 50%;
+    margin: 5rem 50rem 5rem 50rem;   
+    border-color: orange orange #ffffff; 
+    animation: carregando 4s infinite;
+}
+
+@keyframes carregando{
+
+    0%{
+
+        transform: rotate(0deg);
+    }
+ 
+    100%{
+
+        transform: rotate(360deg);
+    }
+}

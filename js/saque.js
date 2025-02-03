@@ -31,6 +31,7 @@ removeCaracteres.addEventListener("keydown", (e) => {
 
 const saqueVazio = document.querySelector("#saques");
 
+
 document.addEventListener("keydown", (evento) =>{
 
     if(evento.key === "Enter" || evento.key === "J" || evento.key === "j" ){
@@ -170,7 +171,7 @@ document.addEventListener("keydown", (evento) =>{
                     alert("Erro valor de R$ 1900 Reais já disponível no botão lateral, tente novamente !!");
                     document.querySelector('#saques').value='';
                     confirmar.style.backgroundColor = "#9a9ac6";
-                    window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/saque.html';
+                    
                   
                 },200)
           
@@ -179,19 +180,16 @@ document.addEventListener("keydown", (evento) =>{
 
             document.querySelector('#saques').value='';
             confirmar.style.backgroundColor = "#9a9ac6";
-            window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/senha_saque.html';
-            
-              
+            window.location.href = 'http://127.0.0.1:5500/tela_carregamento.html';
+
         }
  
-
         // isNaN é responsável por verificar se o valor inserido pelo usuário é um número válido(nesse caso se o número é do tipo int e não string), caso for ele pode executar as duas condições, caso não não vai acontecer nada
-
     }
 
 });
 
-// BOTÕES DOS VALORES ESPECIFICOS PARA SAQUE
+    // BOTÕES DOS VALORES ESPECIFICOS PARA SAQUE
 
 const saque200 = document.querySelector("#botao_saque_1");
 const saque400 = document.querySelector("#botao_saque_2");
