@@ -180,7 +180,7 @@ document.addEventListener("keydown", (evento) =>{
 
             document.querySelector('#saques').value='';
             confirmar.style.backgroundColor = "#9a9ac6";
-            window.location.href = 'http://127.0.0.1:5500/tela_carregamento.html';
+            window.location.href = 'https://gustavocb22.github.io/Sistema-Caixa-Eletronico/tela_carregamento.html';
 
         }
  
